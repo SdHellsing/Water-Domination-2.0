@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 69.46.24.222
+    database_port: 3306
+    database_name: waterdom_watdom
+    database_user: waterdom_watdom
+    database_password: '[b0sA+myh1aa'
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 09b4e50479e395ddaa75d5fb7fb724972b341b08

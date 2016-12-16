@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6acdceca-b457-4e05-a43c-1d1d1c70ba4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/blog/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/errors/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/game_main_pages/dashboard.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/login/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/user/profile.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/user/register.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Controller/SecurityController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/web/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Water-Domination/web/static/css/style.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/.idea/dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/default/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/default/registration.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Entity/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/00/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/06/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/0b/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/0d/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/10/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/11/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223757365725265676973746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/14/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/23/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572237573657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/2c/_2c04d325b8886cc43a6d460f37df17cc47a876ec5ee728b62014eadb40f050d9.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/35/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/47/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/4a/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/52/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223757365725265676973746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/53/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/54/5b53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/55/_55b65ae7e00ea5d475dd22e9573e66380afa10b625cad5f8893b04ca915a1e08.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/56/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/59/_59a2167eed70d978859f0bb50a96062ddb7318612984776d6893de9acdb8ca98.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/5e/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/6a/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/6b/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/6f/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/71/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/77/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/85/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/87/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/8d/5b53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/95/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/96/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/99/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/9d/_9dab0014d6ba960880653dda874d7ce764d4822f0a7cd948610fe8dcf8516786.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/9f/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/a1/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572237573657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/a3/5b5b435d41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722375736572526567697374657250726f63657373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/a5/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/a8/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/af/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/b1/_b1446613f30987d52c8a07cfee718597f75af989d5068915548680cab6211cd5.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/b8/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/c6/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/cd/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/d3/_d3131f8de1c2d8255f59ccd7ceb5de5b7f1f8ad24af5e0a8d701df590a9155de.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/d9/_d96c511f9881da26905c8614075c47752a214e839bbf3a6ba15375fa5a941f91.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/dc/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/dd/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/eb/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/eb/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/fa/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722375736572526567697374657250726f63657373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/fd/_fddf29d35f1105c6f2ca6a9e5661f3552ed02f4b82a9ca9c50c608f1652c8776.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/annotations/fe/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/0a/7a/017a0a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/10/34/973410" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/10/a3/6fa310" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/15/56/125615" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/16/ec/9aec16" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/17/e2/84e217" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/1a/c1/eac11a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/1b/63/a1631b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/1d/f7/7df71d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/20/8e/0a8e20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/21/93/0d9321" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/23/fa/99fa23" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/2c/57/9a572c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/2c/cf/e7cf2c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/2e/75/a8752e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/36/83/da8336" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/38/23/cc2338" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/38/e1/1fe138" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/3c/81/d1813c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/3d/1f/651f3d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/43/85/368543" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/45/48/444845" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/48/ab/31ab48" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/4d/49/52494d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/57/1e/6f1e57" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/63/2d/c42d63" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/67/71/407167" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/74/0a/0a0a74" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/7e/27/9c277e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/7e/7a/e57a7e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/99/bc/5cbc99" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/a7/38/8938a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/a7/55/c155a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/a9/07/4707a9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/ab/9d/689dab" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/b6/11/fc11b6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/b8/e6/7be6b8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/be/8b/bf8bbe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/c2/f5/18f5c2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/c3/e6/65e6c3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/cb/2f/282fcb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/cc/32/8332cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/cd/68/0068cd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/d1/a3/c3a3d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/d5/42/7042d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/d6/43/c443d6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/dc/fd/3dfddc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/e1/01/f101e1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/fb/41/1f41fb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/05/05c0cda8b925028e62cef4e28e5ba32e673533b6e95899a81877c9ff1836dbbb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/08/088823e4292c74b64873e4e9a0f913362b96e860df0c79a3a9d13513cb612145.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/09/091b7a1f394a3a33c6ab65fb7fb565c51bbe4656c8b5fe631007dfbad72eff4b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/0f/0fadf010b1d04f5e8cb496a8da7a43d375110acaf8bb45d64f9b0a561c531ff4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/18/1892e3c121a131625d987fd3732010edf4893ef3d39d6bc2aa8e2065f564ba83.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/1f/1fa4da9c72a4de5b7bb9014d21457951bb303cbbbdc9db360de1d854277c43e3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/39/394d58df78a411253eeb57854be7d58b7972f2a0f43369101ae73d16e43e92dd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/3a/3a8c833fdb8cff40b63079660c6fb3ad31ffcdff8e6929762cbec727bc5c6978.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/3a/3aea7a461f09cd60a8fd9edcbbf97b1745c1f234955e9b487050f1681e0d8de9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/3f/3f6c506e2fec9ebde41ef3d24439957ce9cfd55d08ee0177f2437798eba36401.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/48/48a3ec4444acdc999ecb148aab2c873a36ef2715f2d89dbfe5b055e696f030a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/4b/4bc766f67bfab78bceff264395ba79e324164b962bdcff898e5aec0eac5941b5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/4f/4f32ee72591540207277f6b21d5be7c3d20ba2dbf190536c23f39171de827ff1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/5a/5aba86251353c23c42d0bf1cd608f448791f5c41536e941c941f64762ea15951.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/64/6412ddcca85c02401840cea8757901c094da496b414b802c59c084c6db7f8378.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/66/66a0dd5f934cfb5e7bfd4097c51a73fbe0e8168285fa7e6f68c47232baa0cfdd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/6b/6b1ef08e75e76ec2d9b9aff04c43570e0e874f3cc97cdba572d82a15d62cd4cf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/6c/6c7012c45e457c27b77bd04dd94db91cfae5bb00fdc48150571e69a6ce03670f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/74/74763b9c2f4ef144d125b52a363b0219d445eb97d07519313d849169f16530e4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/78/78c5a92961e6862d39b14b6bb96cf1c4d8a3e0e0a77c02b7acf5d88bcecf2fa2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/7c/7c307723c0af3265baaf6dbab6d59b2de559b07f303007f1c761762f6c7739ed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/88/88185a5cfa99d4c30ac3d07ac17b90b17fadef4e0d47a4f5dc5b8bf2ee00b61e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/89/89ee1caee01c165a7f1d444833174c58c307ab1fc86aefc31e60355865f1f12a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/9f/9ff19c34092f4c11a052632851ecc2817c40a53ac0e504020958ad5cacc0d66e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/a4/a4645e51b71b6291a007e901268b15a2ecb560441a3f3b6d281a7e2c7b012ac4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/a9/a95087298d85567691e89399d7ef0e985bcc73edc55aca180f17f55de1fc40ae.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/bb/bbb00e57d651563fc048db1e3120010fecd3c62e18beafc3b5fa97d10052ffef.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/bc/bc019f167c2ec56bcbc33ae49bd944acea69767ae4320ad75cf2261804eda5a1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/c0/c0729a5f136653f41ddeafbc74798e8a6b9cdc7d9f44c10c1428e1959cff32ab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/c5/c511ebff2630465c21816c47edbee91048efd92f57da5730cd4b4f78b866b8be.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/c6/c6865652e9ef2dba04ddb5bfb939daf6edf34c786cdbec94bc371524704d9d80.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/cc/cced0c11face2d7f282b813de9ef66c5487d2151764109afca7044ce5b63eba4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/d6/d679b98a483e25afeb280ac0c6d7b76651c0bd93fabb3a4e94d41c85415ff75e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/d7/d76f8fbe0319c5404121707219a2901e781ee8c780483623be9cf710042174a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/dc/dca84d6b48e0dfd4b13b902b336e403540873ea77c5006f6732da0ab87884e40.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/ed/ed179223e07530ab53186aca2f3ea2ec52444a704aa2c4957555fb677a22c423.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/ef/efbc3f1c1b327c874dfa89f367ec9bf4a61ab19cee39040535bb7a476b2b31a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/f1/f16ee919e07124fbc949fdde3337406862cdc76a3662baf6a39813173fd382d6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/f6/f6fbe4551c7e3a1f639c5bcc0eeb094d5bcfcb109f85d5d0842298204f27306b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/f8/f875af5bad1b94d1e448d83cd01e4c04deca69be35f0aacbf09d15d134f43b0b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/twig/fd/fd8907d00414497f63c98bf5ce69c2eb9453eb682370e184aff3921d44ae1bf7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/06/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/0b/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/0d/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/10/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/2c/_2c04d325b8886cc43a6d460f37df17cc47a876ec5ee728b62014eadb40f050d9.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/47/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/53/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/56/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/5e/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/6a/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/6b/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/6f/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/77/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/99/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/9f/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/a8/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/af/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/b1/_b1446613f30987d52c8a07cfee718597f75af989d5068915548680cab6211cd5.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/c6/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/cd/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/d3/_d3131f8de1c2d8255f59ccd7ceb5de5b7f1f8ad24af5e0a8d701df590a9155de.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/dc/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/eb/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/eb/5b53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/annotations/fa/5b41707042756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722375736572526567697374657250726f63657373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Water-Domination/web/bundles/framework" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/.idea/Water-Domination.iml" afterPath="$PROJECT_DIR$/../Water-Domination/.idea/Water-Domination.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Water-Domination/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/AppKernel.php" afterPath="$PROJECT_DIR$/../Water-Domination/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/all.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/all.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/edit.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/register.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/register.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/config/config.yml" afterPath="$PROJECT_DIR$/../Water-Domination/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/config/parameters.yml" afterPath="$PROJECT_DIR$/../Water-Domination/app/config/parameters.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/app/config/security.yml" afterPath="$PROJECT_DIR$/../Water-Domination/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/composer.lock" afterPath="$PROJECT_DIR$/../Water-Domination/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Controller/UserController.php" afterPath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Controller/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Form/UserType.php" afterPath="$PROJECT_DIR$/../Water-Domination/src/AppBundle/Form/UserType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/bootstrap.php.cache" afterPath="$PROJECT_DIR$/../Water-Domination/var/bootstrap.php.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/classes.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainer.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainer.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainer.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainerUrlMatcher.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainerUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/appProdProjectContainerUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/classes.map" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/classes.php" afterPath="$PROJECT_DIR$/../Water-Domination/var/cache/prod/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/logs/dev.log" afterPath="$PROJECT_DIR$/../Water-Domination/var/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/var/logs/prod.log" afterPath="$PROJECT_DIR$/../Water-Domination/var/logs/prod.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/README.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/AnnotationReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/CachedReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/DocParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/TokenParser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/annotations/lib/Doctrine/Common/Annotations/TokenParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Persistence/AbstractManagerRegistry.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Persistence/Mapping/AbstractClassMetadataFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Version.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/doctrine/common/lib/Doctrine/Common/Version.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/CHANGELOG.mdown" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/CHANGELOG.mdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Logger.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/monolog/monolog/src/Monolog/Logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/sensio/distribution-bundle/Composer/ScriptHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/sensio/generator-bundle/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/sensio/generator-bundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/VERSION" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/VERSION" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/doc/messages.rst" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/doc/messages.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/ClockMock.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/ClockMock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/DeprecationErrorHandler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/DeprecationErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/DnsMock.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/DnsMock.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/SymfonyTestsListener.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/SymfonyTestsListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/TextUI/Command.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/TextUI/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/phpunit-bridge/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/.github/PULL_REQUEST_TEMPLATE.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/CHANGELOG-3.1.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/CHANGELOG-3.1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/CONTRIBUTORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/UPGRADE-3.1.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/UPGRADE-3.1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Form/ChoiceList/ORMQueryBuilderLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Form/ChoiceList/ORMQueryBuilderLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Form/ChoiceList/ORMQueryBuilderLoaderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/Tests/Form/ChoiceList/ORMQueryBuilderLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Translation/TwigExtractorTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Tests/Translation/TwigExtractorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Translation/TwigExtractor.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Translation/TwigExtractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDebugCommand.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ConfigDebugCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerNameParser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/ControllerNameParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/CachePoolPass.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/Compiler/CachePoolPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Routing/DelegatingLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/ApplicationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Console/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/CompleteConfigurationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/CompleteConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/PhpCompleteConfigurationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/PhpCompleteConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/XmlCompleteConfigurationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/XmlCompleteConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/YamlCompleteConfigurationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/YamlCompleteConfigurationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/Compiler/ExtensionPass.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/Compiler/ExtensionPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception/exception.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Controller/RouterController.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Controller/RouterController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/exception.css.twig" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Collector/exception.css.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/layout.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/layout.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.html.twig" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/ClassCollectionLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/ClassLoader/ClassCollectionLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Dumper/YamlReferenceDumper.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Dumper/YamlReferenceDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCache.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/ResourceCheckerConfigCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Dumper/XmlReferenceDumperTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Dumper/XmlReferenceDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Dumper/YamlReferenceDumperTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Definition/Dumper/YamlReferenceDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Configuration/ExampleConfiguration.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Configuration/ExampleConfiguration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/ResourceCheckerConfigCacheTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/ResourceCheckerConfigCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Config/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Descriptor/TextDescriptor.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Descriptor/TextDescriptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/ApplicationTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.txt" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.txt" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CheckCircularReferencesPass.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Compiler/CheckCircularReferencesPass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/ContainerBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/XmlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ContainerBuilderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/ContainerBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/PhpDumperTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Dumper/PhpDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/classes.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9_compiled.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services9_compiled.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/XmlFileLoaderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/XmlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Loader/YamlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Crawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Field/ChoiceFormField.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Field/ChoiceFormField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/DomCrawler/Tests/CrawlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Tests/FilesystemTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Finder/Comparator/NumberComparator.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Finder/Comparator/NumberComparator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Finder/Finder.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Finder/Finder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Core/Type/FileType.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Extension/Core/Type/FileType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/Type/FileTypeTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Tests/Extension/Core/Type/FileTypeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Util/OrderedHashMapIterator.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Form/Util/OrderedHashMapIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/BinaryFileResponse.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/BinaryFileResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/RequestTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Tests/RequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ArgumentResolver/DefaultValueResolver.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ArgumentResolver/DefaultValueResolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerResolver.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Controller/ControllerResolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Controller/ArgumentResolverTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Controller/ArgumentResolverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Controller/ControllerResolverTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Tests/Controller/ControllerResolverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Process/Process.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Process/Process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/ProcessTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Process/Tests/ProcessTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyAccessor.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/PropertyAccessor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/PropertyAccessorCollectionTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/PropertyAccess/Tests/PropertyAccessorCollectionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Routing/RouteCompiler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Routing/RouteCompiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/RouteCompilerTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/RouteCompilerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/PersistentToken.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/RememberMe/PersistentToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/AbstractToken.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/AbstractToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/PreAuthenticatedToken.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/PreAuthenticatedToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/UsernamePasswordToken.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Core/Authentication/Token/UsernamePasswordToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Guard/Token/PostAuthenticationGuardToken.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Guard/Token/PostAuthenticationGuardToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ExceptionListener.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Security/Http/Firewall/ExceptionListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Serializer/Normalizer/AbstractObjectNormalizer.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Serializer/Normalizer/AbstractObjectNormalizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Serializer/Normalizer/GetSetMethodNormalizer.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Serializer/Normalizer/GetSetMethodNormalizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Context/ExecutionContext.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Context/ExecutionContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Mapping/Loader/YamlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/README.md" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Fixtures/Entity.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Fixtures/Entity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AnnotationLoaderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/AnnotationLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Mapping/Loader/YamlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/AbstractTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/RecursiveValidatorTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Tests/Validator/RecursiveValidatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/RecursiveContextualValidator.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Validator/Validator/RecursiveContextualValidator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/SplCaster.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Caster/SplCaster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/Caster/ReflectionCasterTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/Caster/ReflectionCasterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/Caster/SplCasterTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/Caster/SplCasterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/VarClonerTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/VarDumper/Tests/VarClonerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Dumper.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Dumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/DumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/multiple_lines_as_literal_block.yml" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Component/Yaml/Tests/Fixtures/multiple_lines_as_literal_block.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/composer.json" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/ext/twig/php_twig.h" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/ext/twig/php_twig.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Autoloader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Autoloader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Cache/Null.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Cache/Null.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Compiler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Compiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Environment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Error.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Error/Loader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Error/Loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/ExpressionParser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Debug.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Escaper.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Escaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Optimizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Extension/StringLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/ExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Lexer.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Lexer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Loader/Array.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Loader/Array.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Loader/Chain.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Loader/Chain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Node/CheckSecurity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeTraverser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeTraverser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Escaper.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Escaper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Optimizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/NodeVisitor/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Blackfire.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Blackfire.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Html.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Text.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Dumper/Text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/NodeVisitor/Profiler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Profile.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Profiler/Profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Sandbox/SecurityPolicy.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Sandbox/SecurityPolicy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Source.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Source.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Template.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Test/IntegrationTestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Token.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/AutoEscape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Block.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Do.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Do.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Embed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Extends.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Flush.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/For.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/From.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/From.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/If.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/If.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Import.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Import.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Include.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Macro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Sandbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Set.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Set.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Spaceless.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Use.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/Use.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/With.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenParser/With.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/TokenStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Util/DeprecationCollector.php" afterPath="$PROJECT_DIR$/../Water-Domination/vendor/twig/twig/lib/Twig/Util/DeprecationCollector.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+              <folding>
+                <element signature="e#2513#2540#0#Twig" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="774">
+              <caret line="44" column="7" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+              <folding>
+                <element signature="e#36#68#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Blog/web/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+      <find>blog_index</find>
+      <find>login_user_post</find>
+      <find>role</find>
+      <find>login_path</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Water-Domination" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/Registration.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/UserType.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/user/register.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/pages/home.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/pages/blog_index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/LoginType.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/components/header.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/components/footer.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/user/login.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Water-Domination-2.0">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Water-Domination-2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginTest" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\loginTest\web\images" />
+      <recent name="D:\xampp\htdocs\loginTest\web\css" />
+      <recent name="D:\xampp\htdocs\loginTest\web\js" />
+      <recent name="D:\xampp\htdocs\loginTest\web" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6acdceca-b457-4e05-a43c-1d1d1c70ba4d" name="Default" comment="" />
+      <created>1481826613502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481826613502</updated>
+      <workItem from="1481826618778" duration="7800000" />
+      <workItem from="1481834702022" duration="10683000" />
+      <workItem from="1481910818984" duration="1648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20131000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Blog/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/Registration.php" />
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/src/AppBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="58" column="51" lean-forward="false" selection-start-line="58" selection-start-column="51" selection-end-line="58" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/errors/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/game_main_pages/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/login/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/pages/home.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/users/all.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/user/profile.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/app/Resources/views/user/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/src/AppBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Water-Domination/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="306" column="23" lean-forward="false" selection-start-line="306" selection-start-column="23" selection-end-line="306" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/user/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/LoginType.php" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/components/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/components/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/pages/blog_index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/user/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#219#233#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/src/SoftUniBlogBundle/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/src/SoftUniBlogBundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/src/SoftUniBlogBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="45" column="53" lean-forward="false" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/231231.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/user/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#224#237#0#Twig" expanded="false" />
+            <element signature="e#2118#2128#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/user/profile.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#222#236#0#Twig" expanded="false" />
+            <element signature="e#1347#1357#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/form/fields.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/TwigBundle/views/Exception/error.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/blog/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/components/jquery/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="44" column="7" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#68#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Blog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="83" lean-forward="false" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+          <folding>
+            <element signature="e#2513#2540#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

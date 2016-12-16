@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+This is the registration form.
+
+    {{ form_start(form) }}
+
+    Username: {{ form_widget(form.username) }} <br>
+    Password: {{ form_widget(form.password) }} <br>
+    Name: {{ form_widget(form.name) }}<br>
+
+    <button type="submit" class="btn-info" value="Submit">Submit</button>
+    {{ form_end(form) }}
+
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% if role %}
+        <p> Your role is: <strong>{{ role }}</strong></p>
+    {% endif %}
+    {% if username %}
+        <p>Welcome to the admin area, <strong>{{ username }}</strong>!</p>
+    {% endif %}
+{% endblock %}

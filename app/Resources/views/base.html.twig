@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        {#<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">#}
+        {#<link rel="stylesheet" href="{{ asset('css/bootstrap-theme.css') }}">#}
+
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+    {% block header %}
+        <header>
+            <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand"><img style="height: 100px; " src="{{ asset('images/logo.png') }}"></a>
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            {% if app.user %}
+                                <li>
+                                    <a href="#">
+                                        My Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Logout
+                                    </a>
+                                </li>
+                            {% else %}
+                                <li>
+                                    <a href="#">
+                                        REGISTER
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        LOGIN
+                                    </a>
+                                </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    {% endblock %}
+
+
+    <div class="container body-container">
+        {% include 'components/header.html.twig' %}
+        {% block body %}
+            <div class="row">
+                <div id="main" class="col-sm-9">
+                    {% block main %}{% endblock %}
+                </div>
+            </div>
+        {% endblock %}
+    </div>
+
+
+
+
+    {% block footer %}
+        <footer>
+            <div class="container modal-footer">
+                <p>&copy; 2016 - Finireth Solutions</p>
+            </div>
+        </footer>
+    {% endblock %}
+        {% block javascripts %}
+            <script src="{{ asset('js/jquery.js') }}"></script>
+            <script src="{{ asset('js/bootstrap.js') }}"></script>
+
+
+        {% endblock %}
+
+    </body>
+</html>
