@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -49,6 +50,18 @@ class Platform
      */
 
     private $user;
+
+    /**
+     * @var PlatformResource[]
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\PlatformResource", mappedBy="platform")
+     */
+
+    private $resources;
+
+    public function __construct()
+    {
+        $this->resources = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -147,6 +160,23 @@ class Platform
     {
         $this->user = $user;
     }
+
+    /**
+     * @return PlatformResource[]
+     */
+    public function getResources()
+    {
+        return $this->resources;
+    }
+
+    /**
+     * @param PlatformResource[] $resources
+     */
+    public function setResources($resources)
+    {
+        $this->resources = $resources;
+    }
+
 
 
 }

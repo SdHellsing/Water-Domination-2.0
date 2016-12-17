@@ -2,7 +2,9 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\GameResource;
 use AppBundle\Entity\Platform;
+use AppBundle\Entity\PlatformResource;
 use AppBundle\Entity\User;
 use AppBundle\Form\UserType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
@@ -18,7 +20,7 @@ use Symfony\Component\HttpFoundation\Request;
  * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
  */
 
-class UserController extends Controller
+class UserController extends PlatformAwareController
 {
 
     /*
@@ -30,6 +32,7 @@ class UserController extends Controller
     const MAX_Y = 500;
 
     const MAX_PLATFORMS = 3;
+    const INITIAL_RESOURCES = 10000;
 
     /**
      * @Security("is_granted('IS_AUTHENTICATED_ANONYMOUSLY')")
@@ -102,9 +105,25 @@ class UserController extends Controller
                 $platform->setY($y);
                 $platform->setName($user->getName() . '_' . ($i + 1));
                 $platform->setUser($user);
-
                 $entityManager->persist($platform);
                 $entityManager->flush();
+
+
+                //resource initialization
+
+                $resourceRepository = $this->getDoctrine()->getRepository(GameResource::class);
+                $resourceTypes=$resourceRepository->findAll();
+
+                foreach ($resourceTypes as $resourceType){
+                    $platformResource = new PlatformResource();
+                    $platformResource->setResource($resourceType);
+                    $platformResource->setPlatform($platform);
+                    $platformResource->setAmount(self::INITIAL_RESOURCES);
+                    $entityManager->persist($platformResource);
+                    $entityManager->flush();
+
+                }
+
 
             }
 

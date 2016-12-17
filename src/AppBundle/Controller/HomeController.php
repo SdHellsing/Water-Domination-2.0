@@ -7,7 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 
-class HomeController extends Controller
+class HomeController extends PlatformAwareController
 {
     /**
      * @Route("/", name="homepage")
@@ -56,6 +56,7 @@ class HomeController extends Controller
     {
 
         $user = $this->getUser();
+        $currentPlatform = $this->getPlatform();
         if ($user) {
             /**
              * @var User $user
