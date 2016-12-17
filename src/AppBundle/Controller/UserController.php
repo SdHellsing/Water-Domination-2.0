@@ -116,27 +116,7 @@ class UserController extends Controller
 
     }
 
-    /**
-     * @return \Symfony\Component\HttpFoundation\Response
-     * @Route("/dashboard", name="dashboard_action")
-     */
 
-    public function dashboardAction()
-    {
-
-        /**
-         * @var User $user
-         */
-        $user = $this->getUser();
-        $session = $this->get('session');
-        $currentPlatform = $session->get('platform_id');
-
-
-        return $this->render('pages/dashboard.html.twig', [
-            'user' => $user,
-            'platformID' => $currentPlatform
-        ]);
-    }
 
     /**
      * @Route("/player/change_platform/{id}", name="change_platform")

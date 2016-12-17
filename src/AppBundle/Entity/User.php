@@ -43,6 +43,14 @@ class User implements UserInterface
      * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=255, unique=true)
+     */
+    private $email;
+
     /**
      * @var string
      *
@@ -219,6 +227,22 @@ class User implements UserInterface
     public function setPlatforms($platforms)
     {
         $this->platforms = $platforms;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail()
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param string $email
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
     }
 
 

@@ -14,21 +14,21 @@ class HomeController extends Controller
      */
     public function indexAction(Request $request)
     {
-
+        /**
+         * @var User $user
+         */
         $user = $this->getUser();
-        if ($user) {
-            /**
-             * @var User $user
-             */
-            $session = $this->get('session');
-            if (!$session->has('platform_id')) {
-                $session->set('platform_id', $user->getPlatforms()[0]->getId());
-            }
-        }
 
+        if($user){
+            $message = 'Welcome,' . $user->getUsername();
+        }
+        else{
+           $message = 'You are not logged in!';
+        }
         return $this->render('pages/home.html.twig', [
-            'user' => $user
+            'message' => $message
         ]);
+
     }
 
     /**
@@ -45,5 +45,34 @@ class HomeController extends Controller
             'role' => $role[0],
             'username' => $username
         ]);
+    }
+
+    /**
+     * @return \Symfony\Component\HttpFoundation\Response
+     * @Route("/dashboard", name="dashboard_action")
+     */
+
+    public function dashboardAction()
+    {
+
+        $user = $this->getUser();
+        if ($user) {
+            /**
+             * @var User $user
+             */
+
+            $session = $this->get('session');
+
+            if (!$session->has('platform_id')) {
+                $session->set('platform_id', $user->getPlatforms()[0]->getId());
+            }
+
+            $currentPlatform = $session->get('platform_id');
+        }
+
+            return $this->render('pages/dashboard.html.twig', [
+                'user' => $user,
+                'platformID' => $currentPlatform
+            ]);
     }
 }
