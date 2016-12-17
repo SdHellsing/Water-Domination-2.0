@@ -25,11 +25,16 @@
                         </button>
                     </div>
                     <div class="navbar-collapse collapse">
+                        {% if app.user %}
+                        <ul class="nav navbar-nav navbar-left">
+                            {{ render(controller(
+                            'AppBundle:PlatformAware:resource'
+                            )) }}
+                        </ul>
+                        {% endif %}
                         <ul class="nav navbar-nav navbar-right">
 
-
                             {% if app.user %}
-
                                 <li>
                                     <a href="{{ path('dashboard_action') }}">
                                         Dashboard

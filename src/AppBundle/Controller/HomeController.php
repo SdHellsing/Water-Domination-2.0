@@ -57,19 +57,9 @@ class HomeController extends PlatformAwareController
 
         $user = $this->getUser();
         $currentPlatform = $this->getPlatform();
-        if ($user) {
-            /**
-             * @var User $user
-             */
-
-            $session = $this->get('session');
-
-            if (!$session->has('platform_id')) {
-                $session->set('platform_id', $user->getPlatforms()[0]->getId());
-            }
-
-            $currentPlatform = $session->get('platform_id');
-        }
+//        if ($user) {
+//            $currentPlatform = $session->get('platform_id');
+//        }
 
             return $this->render('pages/dashboard.html.twig', [
                 'user' => $user,

@@ -45,6 +45,7 @@ class Platform
 
     /**
      * @var User
+     *
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\User", inversedBy="platforms")
      * @ORM\JoinColumn(name="user_id")
      */
@@ -53,14 +54,24 @@ class Platform
 
     /**
      * @var PlatformResource[]
+     *
      * @ORM\OneToMany(targetEntity="AppBundle\Entity\PlatformResource", mappedBy="platform")
      */
 
     private $resources;
 
+    /**
+     * @var PlatformBuilding[]
+     *
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\PlatformBuilding", mappedBy="platform")
+     */
+
+    private $buildings;
+
     public function __construct()
     {
         $this->resources = new ArrayCollection();
+        $this->buildings = new ArrayCollection();
     }
 
     /**
@@ -176,6 +187,24 @@ class Platform
     {
         $this->resources = $resources;
     }
+
+    /**
+     * @return PlatformBuilding[]
+     */
+    public function getBuildings()
+    {
+        return $this->buildings;
+    }
+
+    /**
+     * @param PlatformBuilding[] $buildings
+     */
+    public function setBuildings($buildings)
+    {
+        $this->buildings = $buildings;
+    }
+
+
 
 
 

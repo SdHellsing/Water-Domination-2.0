@@ -2,8 +2,10 @@
 
 namespace AppBundle\Controller;
 
+use AppBundle\Entity\Building;
 use AppBundle\Entity\GameResource;
 use AppBundle\Entity\Platform;
+use AppBundle\Entity\PlatformBuilding;
 use AppBundle\Entity\PlatformResource;
 use AppBundle\Entity\User;
 use AppBundle\Form\UserType;
@@ -124,6 +126,17 @@ class UserController extends PlatformAwareController
 
                 }
 
+                $buildingRepository = $this->getDoctrine()->getRepository(Building::class);
+                $buildingTypes=$buildingRepository->findAll();
+
+                foreach ($buildingTypes as $buildingType){
+                    $platformBuilding = new PlatformBuilding();
+                    $platformBuilding->setPlatform($platform);
+                    $platformBuilding->setBuilding($buildingType);
+                    $platformBuilding->setLevel(0);
+                    $entityManager->persist($platformBuilding);
+                    $entityManager->flush();
+                }
 
             }
 

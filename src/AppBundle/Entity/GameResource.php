@@ -29,6 +29,14 @@ class GameResource
      */
     private $name;
 
+
+    /**
+     * @var BuildingCostResource[]
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\BuildingCostResource", mappedBy="resource")
+     */
+
+    private $buildingCosts;
+
     /**
      * @var PlatformResource[]
      * @ORM\OneToMany(targetEntity="AppBundle\Entity\PlatformResource", mappedBy="resource")
@@ -38,6 +46,7 @@ class GameResource
 
     public function __construct()
     {
+        $this->platformResources = new ArrayCollection();
         $this->platformResources = new ArrayCollection();
     }
 
@@ -90,5 +99,23 @@ class GameResource
     {
         $this->platformResources = $platformResources;
     }
+
+    /**
+     * @return BuildingCostResource[]
+     */
+    public function getBuildingCosts()
+    {
+        return $this->buildingCosts;
+    }
+
+    /**
+     * @param BuildingCostResource[] $buildingCosts
+     */
+    public function setBuildingCosts($buildingCosts)
+    {
+        $this->buildingCosts = $buildingCosts;
+    }
+
+
 }
 

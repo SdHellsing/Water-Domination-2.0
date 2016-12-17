@@ -1,0 +1,5 @@
+{% for resource in platform.resources %}
+    <li>
+        <a> {{ resource.resource.name }} : {{ resource.amount }}</a>
+    </li>
+{% endfor %}
