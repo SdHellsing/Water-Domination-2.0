@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    This is the user Dashboard!<br>
+    Welcome {{ user.name }}!
+    <div class="platforms_list" style="margin-top: 25px;">
+        Platforms:
+        <ul>
+        {% for platform in user.platforms %}
+
+            {% if platform.id == platformID %}
+                <li><strong><p style="color: #0f7864;">{{ platform.name }} [{{ platform.x }} : {{ platform.y }}]</p></strong></li>
+            {% else %}
+                <li><p style="color: #0f7864;"><a href="{{ path('change_platform', {id: platform.id }) }}"> {{ platform.name }} [{{ platform.x }} : {{ platform.y }}
+                        ]</a></p></li>
+            {% endif %}
+
+        {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
+

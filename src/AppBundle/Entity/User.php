@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
@@ -47,7 +48,20 @@ class User implements UserInterface
      *
      * @ORM\Column(name="role", type="string", length=255, options={"default": "ROLE_USER"})
      */
-    private $role;
+    private $role = 'ROLE_USER';
+
+    /**
+     * @var Platform[]
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Platform", mappedBy="user")
+     */
+
+    private $platforms;
+
+
+    public function __construct()
+    {
+        $this->platforms = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -174,5 +188,39 @@ class User implements UserInterface
     {
         // TODO: Implement eraseCredentials() method.
     }
+
+    /**
+     * @return string
+     */
+    public function getRole()
+    {
+        return $this->role;
+    }
+
+    /**
+     * @param string $role
+     */
+    public function setRole($role)
+    {
+        $this->role = $role;
+    }
+
+    /**
+     * @return Platform[]
+     */
+    public function getPlatforms()
+    {
+        return $this->platforms;
+    }
+
+    /**
+     * @param Platform[] $platforms
+     */
+    public function setPlatforms($platforms)
+    {
+        $this->platforms = $platforms;
+    }
+
+
 }
 
