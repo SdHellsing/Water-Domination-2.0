@@ -30,7 +30,7 @@ class Building
     private $costs;
 
     /**
-     * @var BuildingCostTime
+     * @var BuildingCostTime[]
      * @ORM\OneToOne(targetEntity="AppBundle\Entity\BuildingCostTime", mappedBy="building")
      */
 
@@ -52,12 +52,17 @@ class Building
      */
     private $name;
 
+    /**
+     * @var int
+     *
+     * @ORM\Column(name="base_income", type="integer", length=255, unique=false)
+     */
+    private $baseIncome;
 
     public  function __construct()
     {
         $this->costs = new ArrayCollection();
         $this->platformBuildings = new ArrayCollection();
-
     }
 
 
@@ -141,6 +146,22 @@ class Building
     public function setPlatformBuildings($platformBuildings)
     {
         $this->platformBuildings = $platformBuildings;
+    }
+
+    /**
+     * @return int
+     */
+    public function getBaseIncome()
+    {
+        return $this->baseIncome;
+    }
+
+    /**
+     * @param int $baseIncome
+     */
+    public function setBaseIncome($baseIncome)
+    {
+        $this->baseIncome = $baseIncome;
     }
 
 

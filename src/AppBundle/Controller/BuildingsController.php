@@ -3,6 +3,7 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Building;
+use AppBundle\Entity\BuildingCostTime;
 use AppBundle\Entity\GameResource;
 use AppBundle\Entity\Platform;
 use AppBundle\Entity\PlatformBuilding;
@@ -28,8 +29,35 @@ class BuildingsController extends PlatformAwareController
 
     public function indexAction()
     {
+        $entityManager = $this->getDoctrine()->getManager();
         $platform = $this->getDoctrine()->getRepository(Platform::class)->find($this->getPlatform());
         $resources = $this->getDoctrine()->getRepository(GameResource::class)->findAll();
+        $buildings = $platform->getBuildings();
+        $currentTime = time();
+
+        foreach ($buildings as $building){
+
+            $upgradeTime = $building->getUpgradeTime();
+
+            $isUpgrading = $building->isIsUpgrading();
+
+            $upgradeTimeRemaining = $upgradeTime - $currentTime;
+
+            if ($upgradeTime > 0 && $currentTime < $upgradeTime) {
+
+                $building->setUpgradeTime($upgradeTimeRemaining);
+
+            }elseif($upgradeTimeRemaining <= 0 && $isUpgrading == true){
+
+                $building->setLevel(($building->getLevel()) + 1);
+                $building->setUpgradeTime(0);
+                $building->setIsUpgrading(false);
+                $entityManager->persist($building);
+                $entityManager->flush();
+
+            }else{
+            }
+        }
         return $this->render('buildings/index.html.twig', [
             'buildings' => $platform->getBuildings(),
             'resources' => $resources
@@ -43,6 +71,7 @@ class BuildingsController extends PlatformAwareController
 
     public function evolve($id){
 
+        $entityManager = $this->getDoctrine()->getManager();
         //initialize the platform and the building based on the current selected
 
         $platform = $this->getDoctrine()->getRepository(Platform::class)->find($this->getPlatform());
@@ -51,7 +80,7 @@ class BuildingsController extends PlatformAwareController
             ->findOneBy([
                 'platform'=>$platform,'building'=>$building
             ]);
-        $entityManager = $this->getDoctrine()->getManager();
+
 
         //Get the level of a building
 
@@ -60,8 +89,6 @@ class BuildingsController extends PlatformAwareController
         //get the resource type costs for the building e.g. 1000 Metal and 1000 Stone
 
         $costs = $building->getCosts();
-
-
 
         $allResources = [];
 
@@ -101,14 +128,16 @@ class BuildingsController extends PlatformAwareController
             $entityManager->flush();
         }
 
-        $platformBuilding->setLevel($currentLevel + 1);
+        $upgradeTimeCost = $building->getTimeCosts()->getAmount();
+        $upgradeTime = time()+$upgradeTimeCost;
+
+
+        $platformBuilding->setUpgradeTime($upgradeTime);
+        $platformBuilding->setIsUpgrading(true);
         $entityManager->persist($platformBuilding);
         $entityManager->flush();
 
-
         return $this->redirectToRoute('buildings_list');
-
-
     }
 
 

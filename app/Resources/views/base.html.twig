@@ -48,7 +48,8 @@
                                         <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                        <li><a href="#">Edit Profile</a></li>
+                                        <li><a href="{{ path('profile_edit_action', {id: app.user.id}) }}">Edit Profile</a></li>
+                                        <li><a href="{{ path('password_change_action') }}">Change Password</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="{{ path('security_logout') }}">
                                                 Logout
@@ -107,6 +108,7 @@
         {% block javascripts %}
             <script src="{{ asset('js/jquery.js') }}"></script>
             <script src="{{ asset('js/bootstrap.js') }}"></script>
+            <script src="{{ asset('js/my.js') }}"></script>
 
 
         {% endblock %}

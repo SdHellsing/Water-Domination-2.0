@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    Edit your profile:
+
+    {{ form_start(profileEditForm) }}
+
+    Username: {{ form_widget(profileEditForm.username, {value: user.username}) }} <br>
+    Email: {{ form_widget(profileEditForm.email, {value: user.email}) }} <br>
+    Name: {{ form_widget(profileEditForm.name, {value: user.name}) }}<br>
+
+    <button type="submit" class="btn-info" value="Submit">Submit</button>
+    {{ form_end(profileEditForm) }}
+
+
+{% endblock %}

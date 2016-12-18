@@ -1,6 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
+
     <table border="1" class="table">
         <thead>
         <tr>
@@ -11,7 +12,7 @@
                 <th>{{ resource.name }} Cost</th>
                 {% endfor %}
             <th>Build Next</th>
-
+            <th>Build TTC</th>
         </tr>
         </thead>
         <tbody>
@@ -24,6 +25,12 @@
                         <td>{{ cost.amount * (  building.level + 1 )}}</td>
                     {% endfor %}
                     <td><a href="{{ path('evolve_building', {id: building.building.id }) }}"> Build on ({{ building.level + 1 }} Level)</a></td>
+                    <td>
+
+                        <span id="timer{{ building.building.id }}"></span>
+
+
+                    </td>
                 </tr>
         {% endfor %}
 

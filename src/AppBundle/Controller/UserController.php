@@ -8,6 +8,8 @@ use AppBundle\Entity\Platform;
 use AppBundle\Entity\PlatformBuilding;
 use AppBundle\Entity\PlatformResource;
 use AppBundle\Entity\User;
+use AppBundle\Form\PasswordChange;
+use AppBundle\Form\UserEditProfile;
 use AppBundle\Form\UserType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -35,24 +37,6 @@ class UserController extends PlatformAwareController
 
     const MAX_PLATFORMS = 3;
     const INITIAL_RESOURCES = 10000;
-
-    /**
-     * @Security("is_granted('IS_AUTHENTICATED_ANONYMOUSLY')")
-     * @return \Symfony\Component\HttpFoundation\Response
-     * @Route("/register/", name="register_user")
-     * @Method("GET")
-     */
-
-    public function register()
-    {
-
-        $form = $this->createForm(UserType::class);
-
-        return $this->render('user/register.html.twig', [
-            'form' => $form->createView()
-        ]);
-
-    }
 
     /**
      * @Security("is_granted('IS_AUTHENTICATED_ANONYMOUSLY')")
@@ -148,6 +132,86 @@ class UserController extends PlatformAwareController
 
     }
 
+    /**
+     * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
+     * @Route("/edit/profile/{id}", name="profile_edit_action_post")
+     *
+     * @param Request $request
+     * @param $id
+     * @Method("POST")
+     */
+
+    public function editProfilePost(Request $request, $id){
+
+        /** @var User $user */
+
+        $user = $this->getUser();
+        $userEditForm = $this->createForm(UserEditProfile::class, $user);
+        $userEditForm->handleRequest($request);
+
+        if ($userEditForm->isSubmitted() && $userEditForm->isValid()) {
+
+            $entityManager = $this->getDoctrine()->getManager();
+            $userEntry = $entityManager->getRepository(User::class)->findOneBy([
+                'id' => $id
+            ]);
+
+            if (!$userEntry) {
+                return $this->redirectToRoute('profile_edit_action');
+            }
+
+            $entityManager->merge($user);
+            $entityManager->flush();
+        }
+        return $this->redirectToRoute('profile_edit_action', [
+            'id' => $id
+        ]);
+
+    }
+
+    /**
+     * @Security("is_granted('IS_AUTHENTICATED_FULLY')")
+     * @Route("/change/password/", name="password_change_action_post")
+     *
+     * @param Request $request
+     * @Method("POST")
+     */
+
+    public function changePasswordPost(Request $request){
+
+
+        /** @var User $user */
+
+        $user = $this->getUser();
+        $userID = $user->getId();
+        $changePasswordForm = $this->createForm(PasswordChange::class, $user);
+        $changePasswordForm->handleRequest($request);
+
+        $passwordToEdit = $user->getPassword();
+
+        if ($passwordToEdit) {
+            $password = $this->get('security.password_encoder')
+                ->encodePassword($user, $passwordToEdit);
+            $user->setPassword($password);
+        }
+
+        if ($changePasswordForm->isSubmitted() && $changePasswordForm->isValid()) {
+
+            $entityManager = $this->getDoctrine()->getManager();
+            $userEntry = $entityManager->getRepository(User::class)->findOneBy([
+                'id' => $userID
+            ]);
+
+            if (!$userEntry) {
+                return $this->redirectToRoute('password_change_action');
+            }
+
+            $entityManager->merge($user);
+            $entityManager->flush();
+        }
+        return $this->redirectToRoute('password_change_action');
+
+    }
 
 
     /**
@@ -173,8 +237,6 @@ class UserController extends PlatformAwareController
 
         $this->get('session')->set('platform_id', $id);
         return $this->redirectToRoute('dashboard_action');
-
-
     }
 
 }

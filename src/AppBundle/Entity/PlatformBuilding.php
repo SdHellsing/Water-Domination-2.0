@@ -45,6 +45,20 @@ class PlatformBuilding
     private $level;
 
     /**
+     * @var int
+     *
+     * @ORM\Column(name="upgrade_time", type="integer")
+     */
+    private $upgradeTime;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="is_upgrading", type="boolean")
+     */
+    private $isUpgrading;
+
+    /**
      * Get id
      *
      * @return int
@@ -108,6 +122,38 @@ class PlatformBuilding
     public function setBuilding($building)
     {
         $this->building = $building;
+    }
+
+    /**
+     * @return int
+     */
+    public function getUpgradeTime()
+    {
+        return $this->upgradeTime;
+    }
+
+    /**
+     * @param int $upgradeTime
+     */
+    public function setUpgradeTime($upgradeTime)
+    {
+        $this->upgradeTime = $upgradeTime;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isIsUpgrading()
+    {
+        return $this->isUpgrading;
+    }
+
+    /**
+     * @param bool $isUpgrading
+     */
+    public function setIsUpgrading($isUpgrading)
+    {
+        $this->isUpgrading = $isUpgrading;
     }
 
 
